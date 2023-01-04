@@ -6,7 +6,7 @@ def longueurs(a, b, c):
       print("Le triangle est équilatéral")
     elif a == b or a == c or b == c:
       print("Le triangle est isocèle")
-    elif ((a == b or a == c or b ==c) and (a**2 + b**2 == c**2 or a**2 + c**2 == b**2 or b**2 + c**2 == a**2)):
+      if ((a == b or a == c or b ==c) and (a**2 + b**2 == c**2 or a**2 + c**2 == b**2 or b**2 + c**2 == a**2)):
         print("Le triangle est rectangle et isocèle")
     else:
       print("Le triangle est quelconque")
